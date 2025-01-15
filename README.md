@@ -56,23 +56,23 @@ python main.py client
 
 1. **main.py**:
 
-  Entry point deciding whether to run in server or client mode based on the first command-line argument.
+     Entry point deciding whether to run in server or client mode based on the first command-line argument.
 
 2. **NetworkSpeedTest_Server.py**:
 
-  Implements the server logic:
-  Broadcasts offers on the chosen port
-  Accepts TCP/UDP connections
-  Sends dummy data
+     Implements the server logic:
+     Broadcasts offers on the chosen port
+     Accepts TCP/UDP connections
+     Sends dummy data
 
 3. **NetworkSpeedTest_Client.py**:
    
-  Implements the client logic:
-  Prompts for file size, number of TCP connections, number of UDP connections
-  Listens for server offer
-  Spawns multiple threads to download concurrently
-  Prints out speed and performance stats
+     Implements the client logic:
+     Prompts for file size, number of TCP connections, number of UDP connections
+     Listens for server offer
+     Spawns multiple threads to download concurrently
+     Prints out speed and performance stats
 
 4. **Constants.py**:
    
-  Defines constants and packet formats
+     Defines constants and packet formats
